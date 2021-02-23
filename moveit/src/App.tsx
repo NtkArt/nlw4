@@ -1,8 +1,12 @@
-import React from "react";
-import "./styles/glob";
+import { ExperienceBar } from "./components/ExperienceBar";
+import "./styles/global.css";
 
 function App() {
-  return <h1>Teste</h1>;
+  return (
+    <div className="container">
+      <ExperienceBar />
+    </div>
+  )
 }
 
 export default App;
